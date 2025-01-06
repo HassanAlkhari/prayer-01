@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-language="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قييم حضور الصلوات - الصفحة الرئيسية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-mosque"></i>
+                <span class="ar">قييم صلاتك</span>
+                <span class="en d-none">Prayer Evaluation</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">
+                            <span class="ar">المميزات</span>
+                            <span class="en d-none">Features</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            <span class="ar">حول التطبيق</span>
+                            <span class="en d-none">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stats">
+                            <span class="ar">إحصائيات</span>
+                            <span class="en d-none">Statistics</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-outline-primary me-4 language-switcher">
+                        <span class="ar">EN</span>
+                        <span class="en d-none">عربي</span>
+                    </button>
+                    <a href="auth.html" class="btn btn-primary rounded-pill px-4">
+                        <span class="ar">تسجيل الدخول</span>
+                        <span class="en d-none">Login</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                        <span class="ar">  قييم حضور صلاواتك</span>
+                        <span class="en d-none">Prayer Attendance Evaluation</span>
+                    </h1>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+                        <span class="ar">منصة إسلامية تساعدك على تتبع وتقييم أماكن صلاتك اليومية</span>
+                        <span class="en d-none">An Islamic platform that helps you track and evaluate your daily prayers</span>
+                    </p>
+                    <a href="auth.html" class="btn btn-light btn-hero" data-aos="fade-up" data-aos-delay="300">
+                        <span class="ar">ابدأ الآن مجاناً</span>
+                        <span class="en d-none">Start Now for Free</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="stats-counter">
+                        <div class="number">5000+</div>
+                        <div class="label">
+                            <span class="ar">مستخدم نشط</span>
+                            <span class="en d-none">Active Users</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stats-counter">
+                        <div class="number">50,000+</div>
+                        <div class="label">
+                            <span class="ar">صلاة تم تقييمها</span>
+                            <span class="en d-none">Prayers Evaluated</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stats-counter">
+                        <div class="number">1000+</div>
+                        <div class="label">
+                            <span class="ar">مسجد مسجل</span>
+                            <span class="en d-none">Registered Mosques</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold" data-aos="fade-up">
+                <span class="ar">مميزات التطبيق</span>
+                <span class="en d-none">App Features</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-mosque"></i>
+                        </div>
+                        <h3>
+                            <span class="ar">تتبع الصلوات</span>
+                            <span class="en d-none">Prayer Tracking</span>
+                        </h3>
+                        <p>
+                            <span class="ar">سجل صلواتك اليومية وأماكن أدائها بسهولة وحافظ على سجل منظم لعباداتك</span>
+                            <span class="en d-none">Record your daily prayers and their locations easily and keep a organized record of your worship</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>
+                            <span class="ar">إحصائيات مفصلة</span>
+                            <span class="en d-none">Detailed Statistics</span>
+                        </h3>
+                        <p>
+                            <span class="ar">تابع تقدمك من خلال إحصائيات وتقارير مفصلة تساعدك على تحسين التزامك</span>
+                            <span class="en d-none">Track your progress through detailed statistics and reports that help you improve your commitment</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h3>
+                            <span class="ar">تذكيرات ذكية</span>
+                            <span class="en d-none">Smart Reminders</span>
+                        </h3>
+                        <p>
+                            <span class="ar">احصل على تذكيرات ذكية لأوقات الصلاة والتقييم حسب جدولك اليومي</span>
+                            <span class="en d-none">Get smart reminders for prayer times and evaluation according to your daily schedule</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h2 class="mb-4 fw-bold">
+                        <span class="ar">حول التطبيق</span>
+                        <span class="en d-none">About the App</span>
+                    </h2>
+                    <p class="lead mb-4">
+                        <span class="ar">تطبيق تقييم مكان الصلاة يساعدك على:</span>
+                        <span class="en d-none">Prayer Evaluation App helps you to:</span>
+                    </p>
+                    <ul class="list-unstyled about-list">
+                        <li data-aos="fade-right" data-aos-delay="100">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="ar">تتبع صلواتك اليومية بسهولة</span>
+                            <span class="en d-none">Track your daily prayers easily</span>
+                        </li>
+                        <li data-aos="fade-right" data-aos-delay="200">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="ar">تحسين التزامك بالصلاة في المسجد</span>
+                            <span class="en d-none">Improve your commitment to prayer in the mosque</span>
+                        </li>
+                        <li data-aos="fade-right" data-aos-delay="300">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="ar">مراقبة تقدمك عبر الوقت</span>
+                            <span class="en d-none">Monitor your progress over time</span>
+                        </li>
+                        <li data-aos="fade-right" data-aos-delay="400">
+                            <i class="fas fa-check-circle"></i>
+                            <span class="ar">الحصول على توصيات مخصصة</span>
+                            <span class="en d-none">Get personalized recommendations</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="https://placehold.co/600x400" alt="صورة توضيحية" class="img-fluid rounded about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4" data-aos="fade-up">
+                        <span class="ar">ابدأ في تحسين عبادتك اليوم</span>
+                        <span class="en d-none">Start Improving Your Worship Today</span>
+                    </h2>
+                    <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <span class="ar">سجل حساباً مجانياً وابدأ في تتبع صلواتك</span>
+                        <span class="en d-none">Sign up for free and start tracking your prayers</span>
+                    </p>
+                    <a href="auth.html" class="btn btn-light btn-hero" data-aos="fade-up" data-aos-delay="200">
+                        <span class="ar">سجل الآن</span>
+                        <span class="en d-none">Sign Up Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>
+                        <span class="ar">تقييم مكان الصلاة</span>
+                        <span class="en d-none">Prayer Evaluation</span>
+                    </h5>
+                    <p>
+                        <span class="ar">منصة إسلامية لتتبع وتقييم أماكن الصلاة</span>
+                        <span class="en d-none">An Islamic platform for tracking and evaluating prayer locations</span>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>
+                        <span class="ar">روابط سريعة</span>
+                        <span class="en d-none">Quick Links</span>
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#features">
+                                <span class="ar">المميزات</span>
+                                <span class="en d-none">Features</span>
+                            </a></li>
+                        <li><a href="#about">
+                                <span class="ar">حول التطبيق</span>
+                                <span class="en d-none">About</span>
+                            </a></li>
+                        <li><a href="#stats">
+                                <span class="ar">إحصائيات</span>
+                                <span class="en d-none">Statistics</span>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>
+                        <span class="ar">تواصل معنا</span>
+                        <span class="en d-none">Contact Us</span>
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">
+                                <i class="fab fa-twitter ml-2"></i>
+                                <span class="ar">تويتر</span>
+                                <span class="en d-none">Twitter</span>
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fab fa-facebook ml-2"></i>
+                                <span class="ar">فيسبوك</span>
+                                <span class="en d-none">Facebook</span>
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fab fa-instagram ml-2"></i>
+                                <span class="ar">انستغرام</span>
+                                <span class="en d-none">Instagram</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="text-center">
+                <p class="mb-0">
+                    <span class="ar">جميع الحقوق محفوظة &copy; 2025 تقييم مكان الصلاة</span>
+                    <span class="en d-none">&copy; 2025 Prayer Evaluation. All rights reserved.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+    <script>
+        const languageSwitcher = document.querySelector('.language-switcher');
+        const html = document.querySelector('html');
+
+        languageSwitcher.addEventListener('click', () => {
+            if (html.getAttribute('lang') === 'ar') {
+                html.setAttribute('lang', 'en');
+                html.setAttribute('dir', 'ltr');
+                html.setAttribute('data-language', 'en');
+            } else {
+                html.setAttribute('lang', 'ar');
+                html.setAttribute('dir', 'rtl');
+                html.setAttribute('data-language', 'ar');
+            }
+        });
+    </script>
+</body>
+</html>
